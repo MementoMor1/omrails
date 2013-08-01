@@ -7,7 +7,11 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'jquery-rails'
-	gem 'devise'
+	
+gem 'devise'
+
+gem 'simple_form'
+
 group :production do
  	gem 'pg'
  end
